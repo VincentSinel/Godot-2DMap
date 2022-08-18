@@ -430,7 +430,7 @@ script = ExtResource( 1 )
 script = ExtResource( 4 )
 
 [node name="Camera" type="KinematicBody2D" parent="."]
-position = Vector2( 200, -7 )
+position = Vector2( 200, 30000 )
 script = ExtResource( 2 )
 __meta__ = {
 "_edit_lock_": true

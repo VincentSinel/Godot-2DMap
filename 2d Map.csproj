@@ -3,4 +3,7 @@
     <TargetFramework>net472</TargetFramework>
     <RootNamespace>dMap</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Script\PlanetGen\DataHolder\" />
+  </ItemGroup>
 </Project>
