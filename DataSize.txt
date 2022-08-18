@@ -1,0 +1,45 @@
+Remember for uncompressed files
+
+
+Large Map in starbound (bigest planet)
+
+
+6000 tiles * 3000 tiles
+
+tiles is ushort : 2 byte (65 536 possibility)
+colors is byte : 256 possibility
+
+150 chunk * 75 chunk = 11 250 chunks
+
+11 250 / 8 -> 1407 byte for chunk exist (1 bit set for each chunk)
+
+5 byte info par tile (2 for front tile, 2 for back tile, 1 for color)
+
+6000 * 3000 * 5 = 90 000 000;
+
+90 001 407 o max  almost 86 Mo in memory;
+
+Will increase with objects and link
+
+
+
+
+Large Map in terraria (bigest planet)
+
+
+8400 tiles * 2400 tiles
+
+tiles is ushort : 2 byte (65 536 possibility)
+colors is byte : 256 possibility
+
+210 chunk * 60 chunk = 12 600 chunks
+
+12 600 / 8 -> 1 575 byte for chunk exist (1 bit set for each chunk)
+
+5 byte info par tile (2 for front tile, 2 for back tile, 1 for color)
+
+8400 * 2400 * 5 = 100 800 000;
+
+100 801 575 o max  almost 97 Mo in memory;
+
+Will increase with objects and link
